@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Revise IT</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Revise IT</h1>
+
+      <!-- tabs -->
+      <div class="tabbed">
+        <input type="radio" id="tab1" name="css-tabs" checked />
+        <input type="radio" id="tab2" name="css-tabs" />
+
+        <ul class="tabs">
+          <li class="tab" style="width: 50%">
+            <label for="tab1">Home</label>
+          </li>
+          <li class="tab" style="width: 50%">
+            <label for="tab2">Todo</label>
+          </li>
+        </ul>
+
+        <div class="tab-content" style="height: 144px">
+          <div class="tab1_container" style="height: 60px">
+            <button>3 Days</button>
+            <button>7 Days</button>
+          </div>
+          <div class="tab2_container" style="height: 60px">
+            <button>15 Days</button>
+            <button>30 Days</button>
+          </div>
+        </div>
+
+        <div class="tab-content" style="height: 144px; overflow-y: scroll">
+          <div class="tab2_container">
+            <ul class="todoList">
+              <li>
+                <a href="https://www.google.com" target="_blank" class="link">
+                  Revise IT helps you revise
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com" target="_blank" class="link">
+                  Revise IT helps you revise
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com" target="_blank" class="link">
+                  Revise IT helps you revise
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com" target="_blank" class="link">
+                  Revise IT helps you revise
+                </a>
+              </li>
+              <li>
+                <a href="https://www.google.com" target="_blank" class="link">
+                  Revise IT helps you revise
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- tabs end -->
+      <button id="logoutBtn">LOG OUT</button>
+    </div>
+  </body>
+</html>
